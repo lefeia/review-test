@@ -33,10 +33,6 @@ class StringUtils:
 if __name__ == "__main__":
     utils = StringUtils()
 
-    # 正常用例
-    print("反转字符串：", utils.reverse_string("hello"))  # 输出：olleh
-    print("大写字符串：", utils.capitalize_string("hello"))  # 输出：HELLO
-
     # 改进：数字转为字符串进行回文判断
     print("是否回文：", utils.is_palindrome(12321))  # 输出：True
 
